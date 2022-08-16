@@ -4,7 +4,7 @@
   "description": "This is a website for Con Fusion",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
     "lite": "lite-server"
   },
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/VikkiSinghs/ui#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquerry": "^0.0.1-security",
+    "popper.js": "^1.16.1"
   }
 }
