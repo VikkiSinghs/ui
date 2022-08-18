@@ -25,7 +25,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand ml-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a class="nav-link" href="#"><span
@@ -55,7 +55,18 @@
                         <img src="img/logo.png" class="img-fluid">
                     </div>
                 </div>
+                <div class="form-group col col-3 align-self-center">
+                    <div class=" col-xs-12 col-sm-8">
+                        <a href="#fbform" class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Reserve</a>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Block</button>
+
+
+                    </div>
+                </div>
             </div>
+        </div>
+
+
         </div>
     </header>
 
@@ -68,7 +79,10 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza<span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                        <h2 class="mt-0">Uthappizza
+                            <span class="badge badge-danger">HOT</span>
+                            <span class="badge badge-pill badge-secondary">$4.99</span>
+                        </h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -87,7 +101,9 @@
                 <div class="media">
                     <img class="d-flex mr-3  img-thumbnail align-self-center" src="img/buffet.png" alt="Buffet">
                     <div class="media-body">
-                        <h2 class="mt-0">Weekend Grand Buffet</h2>
+                        <h2 class="mt-0">Weekend Grand Buffet
+                            <span class="badge badge-danger">HOT</span>
+                        </h2>
                         <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five
                             different salads, six enticing appetizers, six main entrees and five choicest desserts. Free
                             flowing bubbly and soft drinks. All for just $19.99 per person</p>
@@ -118,6 +134,84 @@
         </div>
     </div>
 
+
+    <div class="row row-content align-items-center" id="fbform">
+        <div class="col-xs-12 col-sm-9 mt-3 mb-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <div class="card-header">
+                        <h4>Reserve a table</h4>
+                    </div>
+                    <form class="form-horizontal">
+                        <div class="form-group has-success has-feedback">
+                            <label for="numberofguests" class="control-label row-sm-2">Number of Guests</label>
+                            <!-- radio buttons -->
+                            <div class="col-sm-10">
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option1"> 4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option2"> 5
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option3"> 6
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group has-success ">
+                            <label class="control-label row-sm-2">Date and Time</label>
+                            <!-- date -->
+                            <div class="row-xs-5 row-sm-4 row-md-3">
+                                <div class="input-group">
+                                    <input class="form-control" id="date" name="date" placeholder="Date">
+                                    <span class="glyphicon glyphicon-calendar form-control-feedback"
+                                        aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <!-- time -->
+                            <div class="row-xs-7 row-sm-6 row-md-3">
+                                <div class="input-group">
+                                    <input class="form-control" id="time" name="time" placeholder="Time">
+                                    <span class="glyphicon glyphicon-time form-control-feedback"
+                                        aria-hidden="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- button -->
+                        <div class="form-group">
+                            <div class="control-label col-sm-2">
+                                <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
+                        </div>
+                        <!-- warning -->
+                        <div class="form-group">
+                            <div class="alert alert-warning alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <strong>Warning:</strong>: Please
+                                <strong>call</strong> us to reserve for more than six guests.
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">

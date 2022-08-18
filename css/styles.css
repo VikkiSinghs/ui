@@ -30,5 +30,10 @@ body{
     z-index:0;
 }
 .navbar-dark{
-    background-color: rgb(203, 70, 70);
+    background-color: rgb(189, 61, 18);
 }
+.card-header {
+    text-align: center;
+    background: #ffef11;
+}
+
