@@ -1,7 +1,7 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #cacaca ;
+    background: #1a1717 ;
     color:rgb(245, 174, 33);
 }
 .row-header{
@@ -18,7 +18,7 @@
     background-color: black;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
-    color: rgb(150, 150, 159);
+    color: rgb(166, 166, 169);
 }
 address{
     font-size:80%;
@@ -41,4 +41,8 @@ body{
     border-right: 1px solid #cacaca;
     border-bottom: 1px solid #cacaca;
     padding: 10px;
+}
+.card-header1 {
+    text-align: center;
+    background: #3a3a38;
 }
