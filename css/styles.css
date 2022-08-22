@@ -37,9 +37,9 @@ body{
     background: #ffef11;
 }
 .tab-content{
-    border-left: 1px solid #b90000;
-    border-right: 1px solid #b90000;
-    border-bottom: 1px solid #b90000;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     padding: 10px;
 }
 .card-header1 {
@@ -47,7 +47,7 @@ body{
     background: #f4f5f5;
 }
 .carousel {
-    background:#512DA8;
+    background:#1A237E;
 }
 
 .carousel-item {
